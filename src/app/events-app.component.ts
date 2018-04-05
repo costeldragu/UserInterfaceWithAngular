@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'events-app',
+  template:`
+      <h2>Hellow World </h2>
+      <img src="/assets/images/basic-shield.png" />
+  
+  `,
 })
-export class AppComponent {
-  title = 'app';
+export class EventsComponent {
+  title = 'Events app component';
 }
